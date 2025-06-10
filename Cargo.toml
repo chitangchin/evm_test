@@ -1,0 +1,23 @@
+[package]
+name = "evm_test"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anvil = "0.3.1"
+anyhow = "1.0.98"
+chrono = "0.4.41"
+colored = "3.0.0"
+dotenv = "0.15.0"
+eth-encode-packed = "0.1.0"
+ethers = "2.0.14"
+ethers-contract = "2.0.14"
+ethers-core = "2.0.14"
+ethers-providers = "2.0.14"
+fern = "0.7.1"
+foundry-evm = "0.0.0"
+futures = "0.3.31"
+log = "0.4.27"
+revm = "25.0.0"
+tokio = "1.45.1"
+tokio-stream = "0.1.17"
